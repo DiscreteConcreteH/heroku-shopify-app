@@ -1,0 +1,569 @@
+
+
+Started GET "/" for 127.0.0.1 at Mon Jul 09 23:25:35 +0100 2012
+  Processing by HomeController#index as HTML
+Redirected to http://0.0.0.0:3000/login
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at Mon Jul 09 23:25:35 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Mon Jul 09 23:29:41 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"authenticity_token"=>"QSVWr9H2D06v2djKnjyzuYNVMjVCbsODnr3oPzDx1Ko=", "shop"=>"https://turner-christiansen-and-upton5907.myshopify.com/admin", "utf8"=>"✓", "commit"=>"Install"}
+Completed   in 3ms
+
+NoMethodError (undefined method `create_permission_url' for #<ShopifyAPI::Session:0x7f165c1e6d50>):
+  app/controllers/login_controller.rb:13:in `authenticate'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.7ms)
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Mon Jul 09 23:30:05 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"authenticity_token"=>"QSVWr9H2D06v2djKnjyzuYNVMjVCbsODnr3oPzDx1Ko=", "shop"=>"turner-christiansen-and-upton5907.myshopify.com", "utf8"=>"✓", "commit"=>"Install"}
+Completed   in 1ms
+
+NoMethodError (undefined method `create_permission_url' for #<ShopifyAPI::Session:0x7f165c004640>):
+  app/controllers/login_controller.rb:13:in `authenticate'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (11.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.7ms)
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Mon Jul 09 23:30:17 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"authenticity_token"=>"QSVWr9H2D06v2djKnjyzuYNVMjVCbsODnr3oPzDx1Ko=", "shop"=>"turner-christiansen-and-upton5907", "utf8"=>"✓", "commit"=>"Install"}
+Completed   in 5ms
+
+NoMethodError (undefined method `create_permission_url' for #<ShopifyAPI::Session:0x7f165c230c20>):
+  app/controllers/login_controller.rb:13:in `authenticate'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at Mon Jul 09 23:40:12 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Mon Jul 09 23:40:39 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"authenticity_token"=>"QSVWr9H2D06v2djKnjyzuYNVMjVCbsODnr3oPzDx1Ko=", "shop"=>"turner-christiansen-and-upton5907", "utf8"=>"✓", "commit"=>"Install"}
+Completed   in 1ms
+
+NoMethodError (undefined method `create_permission_url' for #<ShopifyAPI::Session:0x7f165c220ca8>):
+  app/controllers/login_controller.rb:13:in `authenticate'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.3ms)
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Tue Jul 10 00:02:29 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"authenticity_token"=>"QSVWr9H2D06v2djKnjyzuYNVMjVCbsODnr3oPzDx1Ko=", "shop"=>"turner-christiansen-and-upton5907", "utf8"=>"✓", "commit"=>"Install"}
+Completed   in 1ms
+
+NoMethodError (undefined method `create_permission_url' for #<ShopifyAPI::Session:0x7f165c08dc10>):
+  app/controllers/login_controller.rb:13:in `authenticate'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.4ms)
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Tue Jul 10 00:03:52 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"authenticity_token"=>"QSVWr9H2D06v2djKnjyzuYNVMjVCbsODnr3oPzDx1Ko=", "shop"=>"turner-christiansen-and-upton5907", "utf8"=>"✓", "commit"=>"Install"}
+Completed   in 1ms
+
+NoMethodError (undefined method `create_permission_url' for #<ShopifyAPI::Session:0x7f165c1f1818>):
+  app/controllers/login_controller.rb:13:in `authenticate'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.2ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jul 10 01:00:06 +0100 2012
+  Processing by HomeController#index as HTML
+Redirected to http://0.0.0.0:3000/login
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 01:00:06 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 13ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Tue Jul 10 01:00:36 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"commit"=>"Install", "authenticity_token"=>"QSVWr9H2D06v2djKnjyzuYNVMjVCbsODnr3oPzDx1Ko=", "shop"=>"turner-christiansen-and-upton5907", "utf8"=>"✓"}
+Redirected to http://turner-christiansen-and-upton5907.myshopify.com/admin/api/auth?api_key=5ea97a86dcd6a7364757fc61560626cb
+Completed 302 Found in 1ms
+
+
+Started GET "/login/finalize?shop=turner-christiansen-and-upton5907.myshopify.com&signature=9109c80162844bc2758969a989806f77&timestamp=1341878995" for 127.0.0.1 at Tue Jul 10 01:10:01 +0100 2012
+  Processing by LoginController#finalize as HTML
+  Parameters: {"timestamp"=>"1341878995", "signature"=>"9109c80162844bc2758969a989806f77", "shop"=>"turner-christiansen-and-upton5907.myshopify.com"}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 01:10:01 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Tue Jul 10 01:10:11 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"commit"=>"Install", "authenticity_token"=>"NDGKXhlmE9ddXATVrSMxNDD77izpbJ0uTo6sObur2+0=", "shop"=>"turner-christiansen-and-upton5907", "utf8"=>"✓"}
+Redirected to http://turner-christiansen-and-upton5907.myshopify.com/admin/api/auth?api_key=5ea97a86dcd6a7364757fc61560626cb
+Completed 302 Found in 1ms
+
+
+Started GET "/login/finalize?shop=turner-christiansen-and-upton5907.myshopify.com&signature=5f6cd9930109250f554e748f46fbf42d&timestamp=1341879012" for 127.0.0.1 at Tue Jul 10 01:10:11 +0100 2012
+  Processing by LoginController#finalize as HTML
+  Parameters: {"timestamp"=>"1341879012", "signature"=>"5f6cd9930109250f554e748f46fbf42d", "shop"=>"turner-christiansen-and-upton5907.myshopify.com"}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 01:10:11 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 01:10:19 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Tue Jul 10 01:10:23 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"commit"=>"Install", "authenticity_token"=>"NDGKXhlmE9ddXATVrSMxNDD77izpbJ0uTo6sObur2+0=", "shop"=>"turner-christiansen-and-upton5907", "utf8"=>"✓"}
+Redirected to http://turner-christiansen-and-upton5907.myshopify.com/admin/api/auth?api_key=5ea97a86dcd6a7364757fc61560626cb
+Completed 302 Found in 1ms
+
+
+Started GET "/login/finalize?shop=turner-christiansen-and-upton5907.myshopify.com&signature=6e1f7b69d5ed02b7e619e56e16de0ae1&timestamp=1341879024" for 127.0.0.1 at Tue Jul 10 01:10:26 +0100 2012
+  Processing by LoginController#finalize as HTML
+  Parameters: {"timestamp"=>"1341879024", "signature"=>"6e1f7b69d5ed02b7e619e56e16de0ae1", "shop"=>"turner-christiansen-and-upton5907.myshopify.com"}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 10ms
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 01:10:26 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Tue Jul 10 01:10:32 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"commit"=>"Install", "authenticity_token"=>"NDGKXhlmE9ddXATVrSMxNDD77izpbJ0uTo6sObur2+0=", "shop"=>"turner-christiansen-and-upton5907", "utf8"=>"✓"}
+Redirected to http://turner-christiansen-and-upton5907.myshopify.com/admin/api/auth?api_key=5ea97a86dcd6a7364757fc61560626cb
+Completed 302 Found in 1ms
+
+
+Started GET "/login/finalize?shop=turner-christiansen-and-upton5907.myshopify.com&signature=0c3bade1a6dc0458f20abf0d23d2c3e7&timestamp=1341879033" for 127.0.0.1 at Tue Jul 10 01:10:32 +0100 2012
+  Processing by LoginController#finalize as HTML
+  Parameters: {"timestamp"=>"1341879033", "signature"=>"0c3bade1a6dc0458f20abf0d23d2c3e7", "shop"=>"turner-christiansen-and-upton5907.myshopify.com"}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 01:10:32 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 01:10:49 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 01:11:10 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 01:11:16 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 01:11:27 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 01:11:29 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Tue Jul 10 01:11:33 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"commit"=>"Install", "shop"=>"turner-christiansen-and-upton5907", "authenticity_token"=>"NDGKXhlmE9ddXATVrSMxNDD77izpbJ0uTo6sObur2+0=", "utf8"=>"✓"}
+Redirected to http://turner-christiansen-and-upton5907.myshopify.com/admin/api/auth?api_key=5ea97a86dcd6a7364757fc61560626cb
+Completed 302 Found in 3ms
+
+
+Started GET "/login/finalize?shop=turner-christiansen-and-upton5907.myshopify.com&signature=8cb8eafbbe1ae511434764fafb82e0ce&timestamp=1341879095" for 127.0.0.1 at Tue Jul 10 01:11:34 +0100 2012
+  Processing by LoginController#finalize as HTML
+  Parameters: {"shop"=>"turner-christiansen-and-upton5907.myshopify.com", "signature"=>"8cb8eafbbe1ae511434764fafb82e0ce", "timestamp"=>"1341879095"}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 01:11:34 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 12ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Tue Jul 10 01:12:18 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"commit"=>"Install", "shop"=>"turner-christiansen-and-upton5907", "authenticity_token"=>"NDGKXhlmE9ddXATVrSMxNDD77izpbJ0uTo6sObur2+0=", "utf8"=>"✓"}
+Redirected to http://turner-christiansen-and-upton5907.myshopify.com/admin/api/auth?api_key=5ea97a86dcd6a7364757fc61560626cb
+Completed 302 Found in 1ms
+
+
+Started GET "/login/finalize?shop=turner-christiansen-and-upton5907.myshopify.com&signature=797780bdeebea0a1a1af11a501c02f15&timestamp=1341879139" for 127.0.0.1 at Tue Jul 10 01:12:20 +0100 2012
+  Processing by LoginController#finalize as HTML
+  Parameters: {"shop"=>"turner-christiansen-and-upton5907.myshopify.com", "signature"=>"797780bdeebea0a1a1af11a501c02f15", "timestamp"=>"1341879139"}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 7ms
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 01:12:20 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 41ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Tue Jul 10 01:15:45 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"commit"=>"Install", "shop"=>"Could not log in to Shopify store.", "authenticity_token"=>"NDGKXhlmE9ddXATVrSMxNDD77izpbJ0uTo6sObur2+0=", "utf8"=>"✓"}
+Redirected to http://Could not log in to Shopify store./admin/api/auth?api_key=5ea97a86dcd6a7364757fc61560626cb
+Completed 302 Found in 1ms
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Tue Jul 10 01:15:45 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"commit"=>"Install", "shop"=>"Could not log in to Shopify store.", "authenticity_token"=>"NDGKXhlmE9ddXATVrSMxNDD77izpbJ0uTo6sObur2+0=", "utf8"=>"✓"}
+Redirected to http://Could not log in to Shopify store./admin/api/auth?api_key=5ea97a86dcd6a7364757fc61560626cb
+Completed 302 Found in 5ms
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 01:15:55 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Tue Jul 10 01:17:29 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"commit"=>"Install", "shop"=>"turner-christiansen-and-upton5907.myshopify.com", "authenticity_token"=>"NDGKXhlmE9ddXATVrSMxNDD77izpbJ0uTo6sObur2+0=", "utf8"=>"✓"}
+Redirected to http://turner-christiansen-and-upton5907.myshopify.com/admin/api/auth?api_key=5ea97a86dcd6a7364757fc61560626cb
+Completed 302 Found in 1ms
+
+
+Started GET "/login/finalize?shop=turner-christiansen-and-upton5907.myshopify.com&signature=4d17544b6ce68998a8c7ca81c38168fc&timestamp=1341879455" for 127.0.0.1 at Tue Jul 10 01:17:36 +0100 2012
+  Processing by LoginController#finalize as HTML
+  Parameters: {"shop"=>"turner-christiansen-and-upton5907.myshopify.com", "signature"=>"4d17544b6ce68998a8c7ca81c38168fc", "timestamp"=>"1341879455"}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 10ms
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 01:17:36 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 33ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Tue Jul 10 01:17:51 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"commit"=>"Install", "shop"=>"turner-christiansen-and-upton5907", "authenticity_token"=>"NDGKXhlmE9ddXATVrSMxNDD77izpbJ0uTo6sObur2+0=", "utf8"=>"✓"}
+Redirected to http://turner-christiansen-and-upton5907.myshopify.com/admin/api/auth?api_key=5ea97a86dcd6a7364757fc61560626cb
+Completed 302 Found in 4ms
+
+
+Started GET "/login/finalize?shop=turner-christiansen-and-upton5907.myshopify.com&signature=3ffca37bed442bb4fc35092131aab23a&timestamp=1341879471" for 127.0.0.1 at Tue Jul 10 01:17:51 +0100 2012
+  Processing by LoginController#finalize as HTML
+  Parameters: {"shop"=>"turner-christiansen-and-upton5907.myshopify.com", "signature"=>"3ffca37bed442bb4fc35092131aab23a", "timestamp"=>"1341879471"}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 01:17:51 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 25ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Tue Jul 10 01:18:01 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"commit"=>"Install", "shop"=>"http://turner-christiansen-and-upton5907.myshopify.com", "authenticity_token"=>"NDGKXhlmE9ddXATVrSMxNDD77izpbJ0uTo6sObur2+0=", "utf8"=>"✓"}
+Redirected to http://turner-christiansen-and-upton5907.myshopify.com/admin/api/auth?api_key=5ea97a86dcd6a7364757fc61560626cb
+Completed 302 Found in 1ms
+
+
+Started GET "/login/finalize?shop=turner-christiansen-and-upton5907.myshopify.com&signature=731115ba10fb6dae19fc04227cadafa8&timestamp=1341879483" for 127.0.0.1 at Tue Jul 10 01:18:03 +0100 2012
+  Processing by LoginController#finalize as HTML
+  Parameters: {"shop"=>"turner-christiansen-and-upton5907.myshopify.com", "signature"=>"731115ba10fb6dae19fc04227cadafa8", "timestamp"=>"1341879483"}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 01:18:03 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Tue Jul 10 01:35:30 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"commit"=>"Install", "shop"=>"krajcik-raynor8293", "authenticity_token"=>"NDGKXhlmE9ddXATVrSMxNDD77izpbJ0uTo6sObur2+0=", "utf8"=>"✓"}
+Redirected to http://krajcik-raynor8293.myshopify.com/admin/api/auth?api_key=5ea97a86dcd6a7364757fc61560626cb
+Completed 302 Found in 1ms
+
+
+Started GET "/login/finalize?shop=krajcik-raynor8293.myshopify.com&signature=ab82572d3d55f7c01a6cddfdc096b144&timestamp=1341880643" for 127.0.0.1 at Tue Jul 10 01:37:24 +0100 2012
+  Processing by LoginController#finalize as HTML
+  Parameters: {"shop"=>"krajcik-raynor8293.myshopify.com", "signature"=>"ab82572d3d55f7c01a6cddfdc096b144", "timestamp"=>"1341880643"}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 01:37:24 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jul 10 01:39:23 +0100 2012
+  Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 7ms
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 01:39:23 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jul 10 01:39:26 +0100 2012
+  Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 01:39:26 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Tue Jul 10 01:39:29 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"commit"=>"Install", "shop"=>"krajcik-raynor8293", "authenticity_token"=>"NDGKXhlmE9ddXATVrSMxNDD77izpbJ0uTo6sObur2+0=", "utf8"=>"✓"}
+Redirected to http://krajcik-raynor8293.myshopify.com/admin/api/auth?api_key=5ea97a86dcd6a7364757fc61560626cb
+Completed 302 Found in 1ms
+
+
+Started GET "/login/finalize?shop=krajcik-raynor8293.myshopify.com&signature=da42c3277bc452422db78ae9a7b53097&timestamp=1341880770" for 127.0.0.1 at Tue Jul 10 01:39:33 +0100 2012
+  Processing by LoginController#finalize as HTML
+  Parameters: {"shop"=>"krajcik-raynor8293.myshopify.com", "signature"=>"da42c3277bc452422db78ae9a7b53097", "timestamp"=>"1341880770"}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 15ms
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 01:39:34 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jul 10 01:41:33 +0100 2012
+  Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 01:41:33 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jul 10 01:41:33 +0100 2012
+  Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 01:41:34 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Tue Jul 10 01:41:43 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"commit"=>"Install", "shop"=>"krajcik-raynor8293", "authenticity_token"=>"NDGKXhlmE9ddXATVrSMxNDD77izpbJ0uTo6sObur2+0=", "utf8"=>"✓"}
+Redirected to http://krajcik-raynor8293.myshopify.com/admin/api/auth?api_key=5ea97a86dcd6a7364757fc61560626cb
+Completed 302 Found in 1ms
+
+
+Started GET "/login/finalize?shop=krajcik-raynor8293.myshopify.com&signature=5ea4b2e62fe01b0e09843fe2e75c0ffd&timestamp=1341880904" for 127.0.0.1 at Tue Jul 10 01:41:44 +0100 2012
+  Processing by LoginController#finalize as HTML
+  Parameters: {"shop"=>"krajcik-raynor8293.myshopify.com", "signature"=>"5ea4b2e62fe01b0e09843fe2e75c0ffd", "timestamp"=>"1341880904"}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 01:41:44 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Tue Jul 10 01:48:57 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"commit"=>"Install", "shop"=>"krajcik-raynor8293", "authenticity_token"=>"NDGKXhlmE9ddXATVrSMxNDD77izpbJ0uTo6sObur2+0=", "utf8"=>"✓"}
+Redirected to http://krajcik-raynor8293.myshopify.com/admin/api/auth?api_key=5ea97a86dcd6a7364757fc61560626cb
+Completed 302 Found in 1ms
+
+
+Started GET "/login/finalize?shop=krajcik-raynor8293.myshopify.com&signature=53b987413f31b4cd342929ebe558a0ac&timestamp=1341881343" for 127.0.0.1 at Tue Jul 10 01:49:04 +0100 2012
+  Processing by LoginController#finalize as HTML
+  Parameters: {"shop"=>"krajcik-raynor8293.myshopify.com", "signature"=>"53b987413f31b4cd342929ebe558a0ac", "timestamp"=>"1341881343"}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 17ms
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 01:49:04 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 29ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jul 10 02:04:33 +0100 2012
+  Processing by HomeController#index as HTML
+Redirected to http://0.0.0.0:3000/login
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 02:04:33 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Tue Jul 10 02:04:38 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"commit"=>"Install", "shop"=>"krajcik-raynor8293", "authenticity_token"=>"7aV4q2WoCdK/RD/QZk6m4fgIWuwBN7mJKnh4rlQVxys=", "utf8"=>"✓"}
+Redirected to http://krajcik-raynor8293.myshopify.com/admin/api/auth?api_key=5ea97a86dcd6a7364757fc61560626cb
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at Tue Jul 10 02:06:04 +0100 2012
+  Processing by HomeController#index as HTML
+Redirected to http://0.0.0.0:3000/login
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 02:06:04 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Tue Jul 10 02:06:12 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"commit"=>"Install", "shop"=>"krajcik-raynor8293", "authenticity_token"=>"7aV4q2WoCdK/RD/QZk6m4fgIWuwBN7mJKnh4rlQVxys=", "utf8"=>"✓"}
+Redirected to http://krajcik-raynor8293.myshopify.com/admin/api/auth?api_key=5ea97a86dcd6a7364757fc61560626cb
+Completed 302 Found in 1ms
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Tue Jul 10 02:06:38 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"commit"=>"Install", "shop"=>"krajcik-raynor8293", "authenticity_token"=>"7aV4q2WoCdK/RD/QZk6m4fgIWuwBN7mJKnh4rlQVxys=", "utf8"=>"✓"}
+Redirected to http://krajcik-raynor8293.myshopify.com/admin/api/auth?api_key=5ea97a86dcd6a7364757fc61560626cb
+Completed 302 Found in 2ms
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Tue Jul 10 02:07:05 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"commit"=>"Install", "shop"=>"krajcik-raynor8293", "authenticity_token"=>"7aV4q2WoCdK/RD/QZk6m4fgIWuwBN7mJKnh4rlQVxys=", "utf8"=>"✓"}
+Redirected to http://krajcik-raynor8293.myshopify.com/admin/api/auth?api_key=5ea97a86dcd6a7364757fc61560626cb
+Completed 302 Found in 1ms
+
+
+Started GET "/login/finalize?shop=krajcik-raynor8293.myshopify.com&signature=4c1927aeceb2eea2cc49bce7cfdd6076&timestamp=1341882427" for 127.0.0.1 at Tue Jul 10 02:07:07 +0100 2012
+  Processing by LoginController#finalize as HTML
+  Parameters: {"shop"=>"krajcik-raynor8293.myshopify.com", "signature"=>"4c1927aeceb2eea2cc49bce7cfdd6076", "timestamp"=>"1341882427"}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 02:07:07 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jul 10 02:11:04 +0100 2012
+  Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 02:11:04 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login/authenticate" for 127.0.0.1 at Tue Jul 10 02:11:10 +0100 2012
+  Processing by LoginController#authenticate as HTML
+  Parameters: {"commit"=>"Install", "shop"=>"krajcik-raynor8293", "authenticity_token"=>"3t8mL7Mx4dEcvAHZ4sNmqAbnutnCmGpy4OmjyhXyWr0=", "utf8"=>"✓"}
+Redirected to http://krajcik-raynor8293.myshopify.com/admin/api/auth?api_key=5ea97a86dcd6a7364757fc61560626cb
+Completed 302 Found in 1ms
+
+
+Started GET "/login/finalize?shop=krajcik-raynor8293.myshopify.com&signature=a6538f2b2792dad00bbcfbddc6145f41&timestamp=1341882671" for 127.0.0.1 at Tue Jul 10 02:11:10 +0100 2012
+  Processing by LoginController#finalize as HTML
+  Parameters: {"shop"=>"krajcik-raynor8293.myshopify.com", "signature"=>"a6538f2b2792dad00bbcfbddc6145f41", "timestamp"=>"1341882671"}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at Tue Jul 10 02:11:10 +0100 2012
+  Processing by LoginController#index as HTML
+Rendered login/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms)
